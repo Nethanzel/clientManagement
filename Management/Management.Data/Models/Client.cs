@@ -16,7 +16,7 @@ namespace Management.Data.Models
         public string LastName { get; set; }
         public ICollection<Address> Addresses { get; set; }
 
-        [RegularExpression(@"^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$")]
+        [RegularExpression(@"^[^@\s]+@[^@\s]+\.[^@\s]+$")]
         public string Email { get; set; }
 
         [RegularExpression(@"[0-9]{3}-[0-9]{3}-[0-9]{4}")]
