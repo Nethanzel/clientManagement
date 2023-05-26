@@ -1,0 +1,15 @@
+{
+  "name": "clientmanagement",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prep": "cd management_view && npm install",
+    "build": "cd management_view && npm run build",
+    "start": "cd Management\\Manegement.Api\\ && start http://localhost:5188/index.html && dotnet run",
+    "launch": "npm run prep && npm run build && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

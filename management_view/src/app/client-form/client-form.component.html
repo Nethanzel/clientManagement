@@ -1,0 +1,59 @@
+<div class="wrapper">
+    <div [hidden]="submitted || isLoading">
+        <form (ngSubmit)="onSubmit()" #clientForm="ngForm" class="customForm">
+            <div class="formGroup">
+                <label for="firstName">First name</label>
+                <input type="text" name="firstName" id="firstName" required minlength="4" maxlength="20" [(ngModel)]="formModel.firstName" #firstName="ngModel">
+                <div [hidden]="firstName.valid || firstName.pristine" class="validationMsg">
+                    Frist name is required
+                </div>
+                <div *ngIf="firstName.errors?.['minlength']" class="validationMsg">
+                    Frist name should have at least 4 characters
+                </div>
+            </div>
+        
+            <div class="formGroup">
+                <label for="lastName">Last name</label>
+                <input type="text" name="lastName" id="lastName" required minlength="4" maxlength="20" [(ngModel)]="formModel.lastName" #lastName="ngModel">
+                <div [hidden]="lastName.valid || lastName.pristine" class="validationMsg">
+                    Last name is required
+                </div>
+                <div *ngIf="lastName.errors?.['minlength']" class="validationMsg">
+                    Last name should have at least 4 characters
+                </div>
+            </div>
+
+            <div class="formGroup">
+                <label for="phone">Phone number</label>
+                <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Ex.: 000-000-0000" name="phone" id="phone" [(ngModel)]="formModel.phone" #phone="ngModel">
+                <div [hidden]="phone.valid || phone.pristine" class="validationMsg">
+                    Phone number is not valid
+                </div>
+            </div>
+
+            <div class="formGroup">
+                <label for="email">Email</label>
+                <input 
+                    type="email"
+                    name="email"
+                    id="email"
+                    [(ngModel)]="formModel.email" 
+                    #email="ngModel"
+                    pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
+                >
+                <div [hidden]="email.valid || email.pristine" class="validationMsg">
+                    Email is not valid
+                </div>
+            </div>
+        
+            <button [disabled]="clientForm.invalid">Done</button>
+        </form>
+    </div>
+
+    <img src="../../assets/spin.png" alt="spinner" class="spinner" *ngIf="isLoading">
+
+    <div class="result" [hidden]="!submitted">
+        <h3 class="ok" [hidden]="actionResult != 1">Task completed</h3>
+        <h3 class="error" [hidden]="actionResult != -1">Something has failed.</h3>
+    </div>
+</div>

@@ -1,0 +1,64 @@
+<div class="Container">
+    <div class="customHeader">
+        <div class="goBack">
+            <a routerLink="/">
+                <p>
+                    <i class="icofont-arrow-left"></i>
+                </p>
+            </a>
+        </div>
+        <div class="title">
+            <h2 *ngIf="!err && !isLoading">
+                {{ Client?.firstName }} {{ Client?.lastName }}
+            
+                <a [routerLink]="['/client', 'u', Client?.clientId]">
+                    <i class="icofont-ui-edit"></i>
+                </a>
+            </h2>
+        </div>
+    </div>
+    
+    <div class="clientList" *ngIf="!isLoading && !err">
+        <div class="Details">
+            <p><span>Phone:</span> {{ Client?.phone }}</p>
+            <p><span>Email:</span> {{ Client?.email }}</p>
+        </div>
+        <div class="Addresses">
+            <h3>{{ Client?.firstName }}'s addresses</h3>
+            <a [routerLink]="['/address', 'a', Client.clientId]">
+                <p class="button">
+                    <i class="icofont-plus-circle"></i>
+                    Add a new address
+                </p>
+            </a>
+            <div class="addressContainer">
+                <h4 *ngIf="!Client.addresses || Client.addresses.length == 0">No address to show</h4>
+                
+                <div class="address" *ngFor="let address of Client.addresses; index as i;">
+                    <div class="icon">
+                        <img src="../../assets/locationPin.png" alt="">
+                    </div>
+                    <div class="details">
+                        <h4>{{ address.country || "*Not set*" }}</h4>
+                        <p>{{ address.city }}</p>
+                        <p>{{ address.street }}</p>
+
+                        <p class="icon">
+                            <a [routerLink]="['/address', Client.clientId, address.addressId]">
+                                <i class="icofont-ui-edit"></i>
+                            </a>
+                            <i class="icofont-trash" (click)="deleteAddress(address.addressId)"></i>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <h3 class="err" *ngIf="err">
+        Something failed
+    </h3>
+
+    <img src="../../assets/spin.png" alt="spinner" class="spinner" *ngIf="isLoading">
+</div>

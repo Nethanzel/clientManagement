@@ -1,0 +1,12 @@
+C:\Users\Natan\Desktop\Management\Management\obj\Debug\netcoreapp3.1\Management.Api.csproj.AssemblyReference.cache
+C:\Users\Natan\Desktop\Management\Management\obj\Debug\netcoreapp3.1\Management.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Natan\Desktop\Management\Management\obj\Debug\netcoreapp3.1\Management.Api.AssemblyInfoInputs.cache
+C:\Users\Natan\Desktop\Management\Management\obj\Debug\netcoreapp3.1\Management.Api.AssemblyInfo.cs
+C:\Users\Natan\Desktop\Management\Management\obj\Debug\netcoreapp3.1\Management.Api.csproj.CoreCompileInputs.cache
+C:\Users\Natan\Desktop\Management\Management\obj\Debug\netcoreapp3.1\Management.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Natan\Desktop\clientManagement\Management\Management\obj\Debug\netcoreapp3.1\Management.Api.csproj.AssemblyReference.cache
+C:\Users\Natan\Desktop\clientManagement\Management\Management\obj\Debug\netcoreapp3.1\Management.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Natan\Desktop\clientManagement\Management\Management\obj\Debug\netcoreapp3.1\Management.Api.AssemblyInfoInputs.cache
+C:\Users\Natan\Desktop\clientManagement\Management\Management\obj\Debug\netcoreapp3.1\Management.Api.AssemblyInfo.cs
+C:\Users\Natan\Desktop\clientManagement\Management\Management\obj\Debug\netcoreapp3.1\Management.Api.csproj.CoreCompileInputs.cache
+C:\Users\Natan\Desktop\clientManagement\Management\Management\obj\Debug\netcoreapp3.1\Management.Api.MvcApplicationPartsAssemblyInfo.cache

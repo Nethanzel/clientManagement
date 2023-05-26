@@ -1,0 +1,65 @@
+.customForm {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    background-color: rgba(255, 255, 255, 0.132);
+}
+
+.customForm button {
+    font-size: 18px;
+    padding: 5px 10px;
+    margin: 10px auto 0 auto;
+}
+
+.customForm .formGroup {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.customForm .formGroup .validationMsg {
+    color: #f00;
+    font-size: 12px;
+    margin-top: 3px;
+    font-style: italic;
+}
+
+
+.customForm .formGroup label {
+    margin: 0 0 5px 0;
+    font-size: 17px;
+}
+
+.customForm .formGroup input {
+    font-size: 17px;
+    outline: none;
+    padding: 3px 5px;
+}
+
+.customForm .formGroup .ng-invalid {
+    border-bottom: 5px solid #f00;
+}
+
+.customForm .formGroup .ng-valid {
+    border-bottom: 5px solid #0f0;
+}
+
+.result .ok  {
+    padding-left: 5px;
+    border-left: 6px solid rgba(0, 255, 0, 0.719);
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 10px;
+}
+
+.result .error  {
+    padding-left: 5px;
+    border-left: 6px solid rgba(255, 0, 0, 0.719);
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 10px;
+
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}

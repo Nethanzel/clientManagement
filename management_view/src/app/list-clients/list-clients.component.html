@@ -1,0 +1,36 @@
+<div class="clientsContainer">
+    <h2>
+        List of clients
+    
+        <a [routerLink]="['/client/add', 0]">
+            <i class="icofont-plus-circle"></i>
+        </a>
+    </h2>
+    <div class="clientList" *ngIf="!isLoading && !err">
+
+        <h3 *ngIf="Clients.length == 0">No client registered</h3>
+        <div class="client" *ngFor="let Client of Clients; index as i;">
+            <div class="img">
+                <img src="../../assets/avatar.jpg" alt="client photo">
+            </div>
+            <div class="details">
+                <h4>{{ Client.firstName }} {{ Client.lastName }} </h4>
+
+                <p class="info"><i class="icofont-phone"></i> {{ Client?.phone || "*not provided*" }}</p>
+                <p class="info"><i class="icofont-ui-email"></i> {{ Client?.email || "*not provided*" }}</p>
+                
+                <p>
+                    <a [routerLink]="['/client', Client.clientId]"><i class="icofont-eye-alt"></i></a>
+                    <i class="icofont-trash" (click)="deleteClient(Client.clientId)"></i>
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <h3 class="err" *ngIf="err">
+        Something failed
+    </h3>
+
+    <img src="../../assets/spin.png" alt="spinner" class="spinner" *ngIf="isLoading">
+</div>

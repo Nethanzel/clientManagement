@@ -1,0 +1,62 @@
+<div class="wrapper">
+    <div [hidden]="submitted || isLoading">
+        <form (ngSubmit)="onSubmit()" #addressForm="ngForm" class="customForm">
+            <div class="formGroup">
+                <label for="street">Street</label>
+                <input 
+                    type="text" 
+                    name="street" 
+                    id="street" 
+                    required 
+                    [(ngModel)]="formModel.street" 
+                    #street="ngModel"
+                    maxlength="40"
+                >
+                <div [hidden]="street.valid || street.pristine" class="validationMsg">
+                    Street is required
+                </div>
+            </div>
+        
+            <div class="formGroup">
+                <label for="city">City</label>
+                <input 
+                    type="text" 
+                    name="city" 
+                    id="city" 
+                    required 
+                    [(ngModel)]="formModel.city" 
+                    #city="ngModel"
+                    maxlength="20"
+                >
+                <div [hidden]="city.valid || city.pristine" class="validationMsg">
+                    City is required
+                </div>
+            </div>
+        
+            <div class="formGroup">
+                <label for="country">Country</label>
+                <input 
+                    type="text" 
+                    name="country" 
+                    id="country" 
+                    required 
+                    [(ngModel)]="formModel.country" 
+                    #country="ngModel"
+                    maxlength="20"
+                >
+                <div [hidden]="country.valid || country.pristine" class="validationMsg">
+                    Country is required
+                </div>
+            </div>
+        
+            <button [disabled]="addressForm.invalid">Done</button>
+        </form>
+    </div>
+
+    <img src="../../assets/spin.png" alt="spinner" class="spinner" *ngIf="isLoading">
+
+    <div class="result" [hidden]="!submitted">
+        <h3 class="ok" [hidden]="actionResult != 1">Task completed</h3>
+        <h3 class="error" [hidden]="actionResult != -1">Something has failed</h3>
+    </div>
+</div>

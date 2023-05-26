@@ -1,0 +1,69 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Natan\\Desktop\\clientManagement\\Management\\Manegement.Api\\wwwroot\\3rdpartylicenses.txt",
+      "PackagePath": "staticwebassets\\3rdpartylicenses.txt"
+    },
+    {
+      "Id": "C:\\Users\\Natan\\Desktop\\clientManagement\\Management\\Manegement.Api\\wwwroot\\assets\\avatar.jpg",
+      "PackagePath": "staticwebassets\\assets\\avatar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Natan\\Desktop\\clientManagement\\Management\\Manegement.Api\\wwwroot\\assets\\locationPin.png",
+      "PackagePath": "staticwebassets\\assets\\locationPin.png"
+    },
+    {
+      "Id": "C:\\Users\\Natan\\Desktop\\clientManagement\\Management\\Manegement.Api\\wwwroot\\assets\\spin.png",
+      "PackagePath": "staticwebassets\\assets\\spin.png"
+    },
+    {
+      "Id": "C:\\Users\\Natan\\Desktop\\clientManagement\\Management\\Manegement.Api\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Natan\\Desktop\\clientManagement\\Management\\Manegement.Api\\wwwroot\\icofont.4ce73fd847728d1a.woff2",
+      "PackagePath": "staticwebassets\\icofont.4ce73fd847728d1a.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Natan\\Desktop\\clientManagement\\Management\\Manegement.Api\\wwwroot\\icofont.647ecdfd7de50af2.woff",
+      "PackagePath": "staticwebassets\\icofont.647ecdfd7de50af2.woff"
+    },
+    {
+      "Id": "C:\\Users\\Natan\\Desktop\\clientManagement\\Management\\Manegement.Api\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Natan\\Desktop\\clientManagement\\Management\\Manegement.Api\\wwwroot\\main.5c10d91fb4e7f0f5.js",
+      "PackagePath": "staticwebassets\\main.5c10d91fb4e7f0f5.js"
+    },
+    {
+      "Id": "C:\\Users\\Natan\\Desktop\\clientManagement\\Management\\Manegement.Api\\wwwroot\\polyfills.1b6f410cc0fa154d.js",
+      "PackagePath": "staticwebassets\\polyfills.1b6f410cc0fa154d.js"
+    },
+    {
+      "Id": "C:\\Users\\Natan\\Desktop\\clientManagement\\Management\\Manegement.Api\\wwwroot\\runtime.b708929840160820.js",
+      "PackagePath": "staticwebassets\\runtime.b708929840160820.js"
+    },
+    {
+      "Id": "C:\\Users\\Natan\\Desktop\\clientManagement\\Management\\Manegement.Api\\wwwroot\\styles.2dd6d5aef2a2071b.css",
+      "PackagePath": "staticwebassets\\styles.2dd6d5aef2a2071b.css"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Manegement_Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Manegement_Api.props",
+      "PackagePath": "build\\Manegement_Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Manegement_Api.props",
+      "PackagePath": "buildMultiTargeting\\Manegement_Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Manegement_Api.props",
+      "PackagePath": "buildTransitive\\Manegement_Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
