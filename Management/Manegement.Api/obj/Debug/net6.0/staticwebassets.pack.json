@@ -49,20 +49,20 @@
       "PackagePath": "staticwebassets\\styles.2dd6d5aef2a2071b.css"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Manegement_Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Management.Api.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Manegement_Api.props",
-      "PackagePath": "build\\Manegement_Api.props"
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Management.Api.props",
+      "PackagePath": "build\\Management.Api.props"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Manegement_Api.props",
-      "PackagePath": "buildMultiTargeting\\Manegement_Api.props"
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Management.Api.props",
+      "PackagePath": "buildMultiTargeting\\Management.Api.props"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Manegement_Api.props",
-      "PackagePath": "buildTransitive\\Manegement_Api.props"
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Management.Api.props",
+      "PackagePath": "buildTransitive\\Management.Api.props"
     }
   ],
   "ElementsToRemove": []

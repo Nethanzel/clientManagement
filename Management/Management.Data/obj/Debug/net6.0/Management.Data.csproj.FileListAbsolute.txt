@@ -12,3 +12,17 @@ C:\Users\Natan\Desktop\Management\Management.Data\obj\Debug\net6.0\Management.Da
 C:\Users\Natan\Desktop\Management\Management.Data\obj\Debug\net6.0\ref\Management.Data.dll
 C:\Users\Natan\Desktop\Management\Management.Data\bin\Debug\net6.0\Management.Data.runtimeconfig.json
 C:\Users\Natan\Desktop\Management\Management.Data\obj\Debug\net6.0\Management.Data.genruntimeconfig.cache
+C:\Users\Natan\Desktop\clientManagement\Management\Management.Data\bin\Debug\net6.0\Management.Data.deps.json
+C:\Users\Natan\Desktop\clientManagement\Management\Management.Data\bin\Debug\net6.0\Management.Data.runtimeconfig.json
+C:\Users\Natan\Desktop\clientManagement\Management\Management.Data\bin\Debug\net6.0\Management.Data.dll
+C:\Users\Natan\Desktop\clientManagement\Management\Management.Data\bin\Debug\net6.0\Management.Data.pdb
+C:\Users\Natan\Desktop\clientManagement\Management\Management.Data\obj\Debug\net6.0\Management.Data.csproj.AssemblyReference.cache
+C:\Users\Natan\Desktop\clientManagement\Management\Management.Data\obj\Debug\net6.0\Management.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Natan\Desktop\clientManagement\Management\Management.Data\obj\Debug\net6.0\Management.Data.AssemblyInfoInputs.cache
+C:\Users\Natan\Desktop\clientManagement\Management\Management.Data\obj\Debug\net6.0\Management.Data.AssemblyInfo.cs
+C:\Users\Natan\Desktop\clientManagement\Management\Management.Data\obj\Debug\net6.0\Management.Data.csproj.CoreCompileInputs.cache
+C:\Users\Natan\Desktop\clientManagement\Management\Management.Data\obj\Debug\net6.0\Management.Data.dll
+C:\Users\Natan\Desktop\clientManagement\Management\Management.Data\obj\Debug\net6.0\refint\Management.Data.dll
+C:\Users\Natan\Desktop\clientManagement\Management\Management.Data\obj\Debug\net6.0\Management.Data.pdb
+C:\Users\Natan\Desktop\clientManagement\Management\Management.Data\obj\Debug\net6.0\Management.Data.genruntimeconfig.cache
+C:\Users\Natan\Desktop\clientManagement\Management\Management.Data\obj\Debug\net6.0\ref\Management.Data.dll

@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prep": "cd management_view && npm install",
+    "prep": "npm install && cd management_view && npm install",
     "build": "cd management_view && npm run build",
-    "start": "cd Management\\Manegement.Api\\ && start http://localhost:5188/index.html && dotnet run",
+    "start": "node index && cd Management\\Manegement.Api\\ && dotnet run",
     "launch": "npm run prep && npm run build && npm start"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "open": "^6.4.0"
+  }
 }

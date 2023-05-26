@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Management.Data\Management_Data.csproj" />
+    <ProjectReference Include="..\Management.Data\Management.Data.csproj" />
   </ItemGroup>
 
   <ItemGroup>

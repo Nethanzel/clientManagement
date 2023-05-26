@@ -3517,9 +3517,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Natan\\Desktop\\clientManagement\\Management\\Management.Data\\Management_Data.csproj",
-      "projectName": "Management_Data",
-      "projectPath": "C:\\Users\\Natan\\Desktop\\clientManagement\\Management\\Management.Data\\Management_Data.csproj",
+      "projectUniqueName": "C:\\Users\\Natan\\Desktop\\clientManagement\\Management\\Management.Data\\Management.Data.csproj",
+      "projectName": "Management.Data",
+      "projectPath": "C:\\Users\\Natan\\Desktop\\clientManagement\\Management\\Management.Data\\Management.Data.csproj",
       "packagesPath": "C:\\Users\\Natan\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Natan\\Desktop\\clientManagement\\Management\\Management.Data\\obj\\",
       "projectStyle": "PackageReference",

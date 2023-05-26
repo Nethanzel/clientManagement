@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nu93cD+xfqXYPo9h/iret/aFIvihFXBW4Dr1989c2TKTCtveza8QMPmCIF/ReA76E40sDYsxlSrYsrno5naFWQ==",
+  "dgSpecHash": "yr4KhFeVQuEFHABgjhsnugH6fN3eBHBHKo5GKbGtDhyd2GSDdZ9k2gv+Vwm3uZWxYt+HUuV+WISVh0uv6p70Ng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Natan\\Desktop\\clientManagement\\Management\\Management.Data\\Management_Data.csproj",
+  "projectFilePath": "C:\\Users\\Natan\\Desktop\\clientManagement\\Management\\Management.Data\\Management.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Natan\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Natan\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

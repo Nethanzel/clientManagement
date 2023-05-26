@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O0SMgij3DiQp6KHS6yfQQeIT6Nr3uYkuiowipTpsiOUd0y1Agzr0wErsvFmj0Ef7EjsIqaj6TWQQnHXkCIl70A==",
+  "dgSpecHash": "Lcd8WjMRSMvfAl2JVff1ENq38oqfITDwwwuaRkAwWlJWBFmiYlCq+cBrgUfr2K/VUUqhIsSybfKzPzJdS1nChg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Natan\\Desktop\\clientManagement\\Management\\Manegement.Api\\Manegement_Api.csproj",
+  "projectFilePath": "C:\\Users\\Natan\\Desktop\\clientManagement\\Management\\Manegement.Api\\Management.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Natan\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Natan\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
